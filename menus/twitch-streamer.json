@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle twitch-streamer",
+        "command": "twitch-streamer:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "twitch-streamer",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "twitch-streamer:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
